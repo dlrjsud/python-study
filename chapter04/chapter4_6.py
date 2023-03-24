@@ -11,9 +11,16 @@ v = False
 for i in range(5):
     for j in range(5):
         if v is False:
-            print('*', end='')
+            print('*', end=' ')
             v = True
         else:
-            print('-', end='')
+            print('-', end=' ')
             v = False
-print()
+    print()
+
+#
+# v i j print
+# f 0 0 *
+# t 0 1 -
+# f 0 2 *
+# t 0 3 -

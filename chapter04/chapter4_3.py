@@ -2,6 +2,10 @@
 sale = int(input('매출액을 입력하세요.'))
 num = int(input('인원 수를 입력하세요.'))
 
+if sale < 0 or num < 0:
+    print('꺼져')
+    exit(0)
+
 if sale >= 100 and num >= 30:
     print('매출은 대성황입니다.')
 elif sale >= 100:
