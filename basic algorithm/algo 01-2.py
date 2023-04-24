@@ -88,6 +88,8 @@ for i in range(n):
         print('+',end='') #짝수
 print()
 
+
+print('-'*27)
 #+와 -를 번갈아 출력하기 2
 
 print('+와 -를 번갈아 출력합니다.')
@@ -99,3 +101,4 @@ if n % 2:
     print('+',end='') # n이 홀수일ㄸ대만 + 출력
 
 print()
+
