@@ -1,7 +1,7 @@
 # 고정 길이 스택 클래스 구현하기
 
 from typing import Any
-from cellections import deque
+from collections import deque
 
 class Stack:
     """고정 길이 스택 클래스(collections.deque를 사용)"""
